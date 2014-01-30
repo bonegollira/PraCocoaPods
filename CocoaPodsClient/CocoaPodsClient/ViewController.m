@@ -9,7 +9,7 @@
 
 
 #import "ViewController.h"
-// #import "HelloWorld.h"
+#import "HelloWorld.h"
 
 
 
@@ -27,7 +27,7 @@
 {
     self._helloLabel.center = self.view.center;
     // use HelloWorld.h
-    self._helloLabel.text = @""; // [HelloWorld alloc] init] say];
+    self._helloLabel.text = [[[HelloWorld alloc] init] say];
 }
 
 @end
