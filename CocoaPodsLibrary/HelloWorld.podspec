@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'BSD'
   s.author       = {"daikobay" => "daikobay@yahoo-corp.jp"}
   s.source       = {:git => "https://github.com/bonegollira/PraCocoaPods.git", :tag => s.version.to_s}
-  s.source_files = 'CocoaPodsLibrary/HelloWorld/*.{m,h}'
+  s.source_files = 'HelloWorld/*.{m,h}'
   #s.exclude_files = 'Classes/Exclude'
   # AdSDK
   #s.resource     = 'AdSDK/*.{cer,plist}'
