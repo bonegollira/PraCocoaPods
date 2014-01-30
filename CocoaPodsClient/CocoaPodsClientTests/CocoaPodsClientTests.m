@@ -1,6 +1,6 @@
 //
-//  PraCocoaPodsTests.m
-//  PraCocoaPodsTests
+//  CocoaPodsClientTests.m
+//  CocoaPodsClientTests
 //
 //  Created by daisuke on 2014/01/30.
 //  Copyright (c) 2014年 daisuke. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface PraCocoaPodsTests : XCTestCase
+@interface CocoaPodsClientTests : XCTestCase
 
 @end
 
-@implementation PraCocoaPodsTests
+@implementation CocoaPodsClientTests
 
 - (void)setUp
 {

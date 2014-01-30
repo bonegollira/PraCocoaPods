@@ -1,29 +1,33 @@
 //
 //  ViewController.m
-//  PraCocoaPods
+//  CocoaPodsClient
 //
 //  Created by daisuke on 2014/01/30.
 //  Copyright (c) 2014年 daisuke. All rights reserved.
 //
 
+
+
 #import "ViewController.h"
+// #import "HelloWorld.h"
+
+
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UILabel *_helloLabel;
+
 @end
+
+
 
 @implementation ViewController
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self._helloLabel.center = self.view.center;
+    // use HelloWorld.h
+    self._helloLabel.text = @""; // [HelloWorld alloc] init] say];
 }
 
 @end
