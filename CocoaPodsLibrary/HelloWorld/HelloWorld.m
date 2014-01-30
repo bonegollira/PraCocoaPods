@@ -18,7 +18,7 @@
 
 - (NSString *)say
 {
-    return @"I am a God";
+    return @"I am a God v2";
 }
 
 

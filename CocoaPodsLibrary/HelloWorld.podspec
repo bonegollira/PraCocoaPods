@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HelloWorld"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Hello World"
   s.homepage     = "http://m.yahoo.co.jp/"
   s.license      = 'BSD'
